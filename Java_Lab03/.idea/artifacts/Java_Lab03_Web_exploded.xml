@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Java_Lab03:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_Lab03_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Java_Lab03/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Java_Lab03" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="commons-httpclient-3.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.8" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.11" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

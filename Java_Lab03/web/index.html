@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Fancy Forms</title>
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<a href="Sss">Clik SssServlet</a>
+<a href="SssRedirect" style="position: absolute; top: 0; right: 0">Click SssRedirect </a>
+
+<form action="Sss" method="post">
+<div class="middle">
+  <h1>Fancy Forms</h1>
+  <!--  Fancy inputs  -->
+  <div id="fancy-inputs">
+    <label for="username" class="input">
+      <input type="text" placeholder="Username" name="username">
+    </label>
+
+    <label for ="password" class="input">
+      <input type="password" placeholder="Password" name="password">
+    </label>
+  </div>
+  
+  <div id="fancy-radio">
+    <input type="radio" name="group" value="male" id="questions" class="pull-left" style="display: none;">
+    <label class="radio questions" for="questions">Male</label>
+
+    <input type="radio" name="group" value="female" id="photo" class="pull-left" style="display: none;">
+    <label class="radio photo" for="photo">Female</label>
+  </div>
+  <!--<a href="" class="btn">Sign Up</a>-->
+  <input type="submit" name="press" class="btn" value="SignUp">
+</div>
+</form>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
