@@ -16,17 +16,19 @@
             <version>3.0.1</version>
             <scope>provided</scope>
         </dependency>
+
 <!--        <dependency>
             <groupId>commons-httpclient</groupId>
             <artifactId>commons-httpclient</artifactId>
             <version>3.1</version>
         </dependency>-->
-
         <!--<dependency>
             <groupId>org.lucee</groupId>
             <artifactId>commons-httpclient</artifactId>
             <version>3.1.0</version>
         </dependency>-->
+        <!--Подрубил commons-httpclient руками-->
+
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>

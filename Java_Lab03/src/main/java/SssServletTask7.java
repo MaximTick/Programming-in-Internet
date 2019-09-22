@@ -1,12 +1,10 @@
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.httpclient.NameValuePair;
-import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.methods.PostMethod;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.Servlet;
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,6 +18,9 @@ public class SssServletTask7 extends HttpServlet implements Servlet {
         HttpClient httpClient = new HttpClient();
         PostMethod postMethod = new PostMethod("http://localhost:8080"
                 + req.getContextPath() + "/GetServlet?press=SignUp");
+        //task 8
+        /*PostMethod postMethod = new PostMethod("http://192.168.0.102:8080"
+                + "/Java3" + "/GetServlet?press=SignUp");*/
         NameValuePair[] parametrs = {
                 new NameValuePair("username", "Maximka"),
                 new NameValuePair("password", "shitshit"),

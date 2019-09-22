@@ -6,7 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52968597-a92e-4062-bc14-857b1e26f35b" name="Default Changelist" comment="" />
+    <list default="true" id="52968597-a92e-4062-bc14-857b1e26f35b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Java_Lab03_Web_exploded/WEB-INF/classes/GggServletTask7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Java_Lab03_Web_exploded/WEB-INF/classes/GggServletTask7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Java_Lab03_Web_exploded/WEB-INF/classes/SssServletTask7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Java_Lab03_Web_exploded/WEB-INF/classes/SssServletTask7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GggServletTask7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GggServletTask7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SssRedirectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SssRedirectServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SssServletTask7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SssServletTask7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GggServletTask7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GggServletTask7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SssServletTask7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SssServletTask7.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +30,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -36,6 +49,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1R7G1mf1iZl93YAztem1caX3CCd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
@@ -148,11 +162,23 @@
       <updated>1569010507910</updated>
       <workItem from="1569010511699" duration="4386000" />
       <workItem from="1569045554264" duration="4459000" />
-      <workItem from="1569052571590" duration="36882000" />
+      <workItem from="1569052571590" duration="37312000" />
+      <workItem from="1569145802541" duration="5280000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

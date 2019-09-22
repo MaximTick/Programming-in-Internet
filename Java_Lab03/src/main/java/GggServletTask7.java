@@ -27,11 +27,14 @@ public class GggServletTask7 extends HttpServlet implements Servlet {
             String parmstr = "username=" + username + "&"
                     + "password=" + password;
 
-            if (sex.equalsIgnoreCase("male"))
+            if (sex.equalsIgnoreCase("male")) {
                 uri += "/Out?" + parmstr;
+                System.out.println("GetServlet: username=" + username + "& password=" + password);
+            }
         }
-        else
+        else {
             uri += "/index.html";
+        }
         hc.executeMethod(gm = new GetMethod(uri));
         resp.setContentType("text/html");
         PrintWriter pw = resp.getWriter();
